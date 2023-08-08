@@ -1,0 +1,271 @@
+$dark: #4b5a81;
+$darkest: #252e47;
+
+.react-bootstrap-table-pagination {
+  padding: 10px;
+  padding-bottom: 100px;
+}
+
+.table-dashboard {
+  thead {
+    th {
+      border: none !important;
+      color: #4b5a81 !important;
+      font-weight: 600 !important;
+      font-size: 14px !important;
+    }
+  }
+
+  tbody {
+    td {
+      border-top: none !important;
+      border-bottom: 1px solid #e0e6f6;
+      a {
+        color: #252e47 !important;
+        font-weight: bold;
+      }
+    }
+
+    tr {
+      &:last-child {
+        td {
+          border-bottom: none !important;
+        }
+      }
+    }
+  }
+}
+
+.table-sync {
+  background-color: #fff;
+  thead {
+    th {
+      border: none !important;
+      color: $dark !important;
+      font-weight: 600 !important;
+      font-size: 16px !important;
+      height: 50px;
+    }
+  }
+
+  tbody {
+    td {
+      border-top: none !important;
+      border-bottom: 1px solid #e0e6f6;
+      font-size: 16px !important;
+    }
+
+    tr {
+      &:last-child {
+        td {
+          border-bottom: none !important;
+        }
+      }
+    }
+  }
+}
+
+.table-agents {
+  thead {
+    th {
+      border: none !important;
+      color: $dark !important;
+      font-weight: 600 !important;
+      font-size: 12px !important;
+      height: 16px !important;
+      text-align: center;
+    }
+  }
+
+  tbody {
+    td {
+      border-top: none !important;
+      border-bottom: none !important;
+      font-weight: 400 !important;
+      font-size: 12px !important;
+      text-align: center;
+    }
+
+    tr {
+      &:last-child {
+        td {
+          border-bottom: none !important;
+        }
+      }
+    }
+  }
+}
+
+.react-bootstrap-table-pagination {
+  padding-bottom: 56px !important;
+}
+
+.table-reported-email {
+  th,
+  td {
+    padding: 0 10px;
+  }
+}
+
+.table-fixed {
+  table-layout: fixed;
+  .w-65 {
+    width: 65%;
+  }
+}
+
+.card-dashbaord {
+  .react-bootstrap-table-pagination {
+    padding-bottom: 0px;
+  }
+}
+
+.table-fixed {
+  table-layout: fixed !important;
+}
+
+.react-bootstrap-table {
+  overflow-x: auto !important;
+  table {
+    table-layout: auto;
+    th {
+      font-weight: normal;
+      color: rgb(165, 157, 175);
+      border-right: none;
+      border-right: none;
+    }
+    th,
+    td {
+      &:first-child {
+        padding-left: 20px;
+      }
+      &:last-child {
+        padding-right: 20px;
+      }
+    }
+    i {
+      font-weight: 100;
+    }
+
+    .btn-link {
+      color: #5a5b5d;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+.pagination {
+  float: right;
+}
+
+.table-slides {
+  img {
+    width: 30px;
+  }
+}
+
+.table-layout-fixed {
+  table-layout: fixed !important;
+}
+
+.table-no-top {
+  thead {
+    th {
+      border-top: none;
+    }
+  }
+}
+.my-table {
+  border: 1px solid #dadada;
+  thead {
+    box-shadow: #ccc 1px 0px 11px 1px;
+    th {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: #272c41;
+      font-size: 11px;
+      font-family: 'DM Sans', sans-serif;
+    }
+  }
+
+  tbody {
+    min-height: 100px;
+
+    td {
+      padding-top: 15px;
+      padding-bottom: 6px;
+
+      font-family: 'DM Sans', sans-serif;
+      a {
+        color: $darkest !important;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.react-bs-table-sizePerPage-dropdown {
+  .dropdown-toggle {
+    background-color: transparent;
+    border: none;
+    color: #888;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.btn-secondary:not(:disabled):not(.disabled):active,
+    &.btn-secondary.dropdown-toggle:focus {
+      color: #888;
+      background-color: transparent;
+      box-shadow: none;
+    }
+  }
+
+  .dropdown-menu {
+    padding: 10px 5px;
+    min-width: 6rem;
+  }
+}
+
+.react-bootstrap-table-page-btns-ul {
+  background-color: transparent;
+  border: none;
+  user-select: none;
+
+  .page-item {
+    border: none;
+
+    .page-link {
+      border: none;
+      color: #888;
+      background-color: transparent;
+      outline: none;
+
+      &:hover {
+        color: #111;
+      }
+      &:focus {
+        box-shadow: none;
+      }
+      &:active {
+        background-color: hsla(0, 0%, 0%, 0.02);
+        border-radius: 3px;
+      }
+    }
+
+    &.disabled {
+      .page-link {
+        color: #ddd;
+      }
+    }
+
+    &.active {
+      border: none;
+      border-bottom: 3px solid blue;
+      outline: none;
+      color: #111;
+    }
+  }
+}
